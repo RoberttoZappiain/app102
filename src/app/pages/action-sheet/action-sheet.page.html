@@ -1,0 +1,26 @@
+<app-header titulo="action page"></app-header>
+
+<!--  -->
+
+<ion-content padding>
+    <ion-button (click)="presentAlert()">click me</ion-button>
+    <ion-list>
+  
+        <ion-img style="width: 80px; height: 80px;" src="https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg"></ion-img>
+      
+        <ion-item>
+          <ion-label>Usuario</ion-label>
+          <ion-input placeholder="Introduce tu nombre de usuario"></ion-input>
+        </ion-item>
+      
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password" value=""></ion-input>
+      </ion-item>
+      
+      <ion-button routerLink="/alert">Ingresar a la alerta</ion-button>
+      <ion-button routerLink="/action-sheet">Ingresar al action-sheet</ion-button>
+      
+      </ion-list>
+</ion-content>
+
